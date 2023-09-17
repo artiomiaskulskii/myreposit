@@ -1,0 +1,36 @@
+import discord
+from random import choice
+client discord. Client (intents discord. Intents.all())
+def load_cities():
+    with open('cities.txt', 'r', encoding='utf-8') as f:
+    cities = f.readlines () # #cities = f.read().split('\n') cleaned cities = []
+        for city in cities:
+            city city. lower().replace('Ocпаривается', '').replace('\n', '') if city != '';
+            cleaned cities.append(city)
+            return cleaned cities
+            cities load_cities()
+            used_words = []
+            @client.event
+            async_def_on_message(message): global used words
+    if message.author= client.user:
+        return
+if message.content == '$start':
+    word
+    used_words = []
+    await message.channel.send("Игра запущена, пиши название города")
+    return
+    message.content.lower()
+    if word in used_words:
+        await message. channel.send('Такое слово уже было использовано, ты проиграл!')
+        return
+    if word in cities:
+        used_words.append(word)
+        i = 1
+        while word[i] in 'blйbb':
+            i+= 1
+            for city in cities:
+                if city not in used_words and city [0] = word [-1]:
+                
+                    await message.channel.send(city)
+                    used words.append(city)
+                    return
