@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title class=""robot>ROBOTOPHOBIA</title>
+    <link rel="icon" type="image/x-icon" href="/img/first_screen/favicon(1).ico">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="/img/first_screen/logo.svg">
+            <div class="container_name">
+                <div class="icon">
+                    <img src="/img/first_screen/avatar.svg"> 
+                </div> 
+            </div>
+        </header>
+        <div class="main">
+            <h1>
+                ATOMIC HEART
+            </h1>
+            <p class="text">
+                ATOMIC HEART - это компьютерная игра, разрабатываемая российской студией Mundfish. Это приключенческий шутер от первого лица с элементами RPG и хоррора. Игра разворачивается в альтернативной версии СССР в 1955 году, где игроку предстоит исследовать таинственный объект под названием "Предприятие-3826", который находится на острове, полном советской технологии и кибернетических созданий 
+            </p>
+
+        </div>
+        <div class="naw">
+            <a href="">
+                <img src="/img/first_screen/home.svg">
+                <p>Играть сейчас</p>
+            </a>
+            <a href="">
+                <img src="/img/first_screen/online_human.svg">
+                <p>Онлайн-наставник</p>
+            </a>
+            <a href="">
+                <img src="/img/first_screen/book.svg">
+                <p>Гайды</p>
+            </a>
+            <a href="">
+                <img src="/img/first_screen/library.svg">
+                <p>Библиотека</p>
+            </a>
+        </div>
+    </main>
+    <section class="gray">
+        <h2>Роботы восстали как же быть?!
+            На нашем сайте много гайдов для разных стилей игры.</h2>
+        <img src="/img/second_screen/card1.svg">
+            <h2>Нет денег,а хочешь игру?
+                Наш интернет-магазин готов помочь вам в этом деле,ведь наши сделки проходят на безопасном и популярном сайте.</h2>
+        <img src="img/second_screen/card2.svg">
+            <h2>А наша библиотека поможет вам развеселится в свободное время с нашим комьюнити</h2>
+        <img src="/img/second_screen/card3.svg">
+            <h2>А если вы не можете разобраться с сайтом вам поможет наш онлайн-наставник</h2>
+        <img src="/img/second_screen/card_4 (1).svg">
+
+
+    </section>
+    <section class="yellow">
+        <div class="first">
+
+
+        </div>
+        <div class="second"></div>
+            <div>
+                <h2>
+                    Часто задаваемые вопросы
+                </h2>
+                <img src="/img/third_screen/question.svg">
+                <img src="/img/third_screen/Answer.svg">
+                <img src="/img/third_screen/q1.svg">
+                <img src="/img/third_screen/A1.svg">
+            </div>
+
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30;
+     
+}
+body{
+    margin: 0;
+    font-family: 'JejuGothic';
+}
+.name{
+    margin: 0;
+    padding-right: 50px;
+}
+.container_name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.main{
+    height: 70vh;
+    background-image: url('/img/first_screen/main.png');
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    padding-left: 210px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 300px;
+    
+}
+main p{
+   width: 55%; 
+
+}
+h1{
+    margin: 0;
+}
+.icon{
+    padding-top: 20px;
+}
+.robot{
+    padding-left: 160px;
+}
+.naw{
+    display: flex;
+    justify-content: space-evenly;
+}
+.naw a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px 40px;
+    border-radius: 15px;
+    width: 140px;
+    align-items: center;
+}
+.naw a:hover{
+    background-color: chartreuse;
+    transition: 1s;
+}
